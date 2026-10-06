@@ -34,7 +34,7 @@ $version = (string)(config()['app_version'] ?? '2.2.0');
       <?php if (in_array($user['role'], ['admin','manager','reception'], true)): ?>
         <a class="btn" href="../admin/">Dashboard</a>
       <?php endif; ?>
-      <div class="portal-app-switcher hide-mobile">
+      <div class="portal-app-switcher">
         <a class="btn" href="https://quartier-schweizer.de/">Vermietung</a>
         <a class="btn" href="https://quartier-schweizer.de/nebenkosten/">Nebenkosten</a>
       </div>
@@ -219,3 +219,4 @@ Endkontrolle</textarea>
 <script src="manager.js?v=<?=e($version)?>"></script>
 </body>
 </html>
+

@@ -1,0 +1,549 @@
+{
+  "catalog_version": "2.1.1",
+  "source": "Bereinigter Angebotskatalog ohne Benutzer-, Kunden-, Angebots- oder Zugangsdaten",
+  "apartment_types": [
+    {
+      "source_id": "68771759-a493-436b-903c-b44f210ac12f",
+      "code": "BM-SIMPLE-BUDGET",
+      "name": "BarbaraMar Simple Budget",
+      "max_occupancy": 2,
+      "standard_price": 60.0,
+      "prices": {
+        "Hochsaison": 85.0,
+        "Mittelsaison": 70.0,
+        "Nebensaison": 60.0,
+        "Feiertage": 95.0
+      },
+      "sort_order": 10,
+      "descriptions": {
+        "de": "Einfache Budget-Wohnung mit allem Nötigen",
+        "en": "Simple budget apartment with all essentials",
+        "es": "Apartamento económico sencillo con todo lo necesario",
+        "pt": "Apartamento económico simples com tudo o necessário",
+        "fr": "Appartement économique simple avec tout le nécessaire",
+        "it": "Appartamento economico semplice con tutto il necessario",
+        "ca": "Apartament econòmic senzill amb tot el necessari"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohn-Esszimmer mit ausgestatteter Küche</li><li>Schlafzimmer mit zwei Betten</li><li>Badezimmer mit Dusche/WC</li><li>Balkon</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Küchenausstattung (Pfannen, Töpfe, Besteck, Geschirr, Küchenutensilien)</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung im Winter</li></ul>",
+        "en": "<ul><li>Living-dining room with equipped kitchen</li><li>Bedroom with two beds</li><li>Bathroom with shower/WC</li><li>Balcony</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment (pans, pots, cutlery, dishes, kitchen utensils)</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating in winter</li></ul>",
+        "es": "<ul><li>Salón-comedor con cocina equipada</li><li>Dormitorio con dos camas</li><li>Baño con ducha/WC</li><li>Balcón</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina (sartenes, ollas, cubiertos, vajilla, utensilios)</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central en invierno</li></ul>",
+        "pt": "<ul><li>Sala de estar-jantar com cozinha equipada</li><li>Quarto com duas camas</li><li>Casa de banho com duche/WC</li><li>Varanda</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha (frigideiras, panelas, talheres, louça, utensílios)</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central no inverno</li></ul>",
+        "fr": "<ul><li>Salon-salle à manger avec cuisine équipée</li><li>Chambre avec deux lits</li><li>Salle de bain avec douche/WC</li><li>Balcon</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine (poêles, casseroles, couverts, vaisselle, ustensiles)</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central en hiver</li></ul>",
+        "it": "<ul><li>Soggiorno-sala da pranzo con cucina attrezzata</li><li>Camera da letto con due letti</li><li>Bagno con doccia/WC</li><li>Balcone</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina (padelle, pentole, posate, stoviglie, utensili)</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato in inverno</li></ul>",
+        "ca": "<ul><li>Saló-menjador amb cuina equipada</li><li>Dormitori amb dos llits</li><li>Bany amb dutxa/WC</li><li>Balcó</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina (paelles, olles, coberts, vaixella, estris)</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central a l'hivern</li></ul>"
+      }
+    },
+    {
+      "source_id": "61ed8ad5-ac30-4fb3-b3ca-e84c961de667",
+      "code": "BM-VIEWS-BASIC",
+      "name": "BarbaraMar Views Basic",
+      "max_occupancy": 2,
+      "standard_price": 65.0,
+      "prices": {
+        "Hochsaison": 90.0,
+        "Mittelsaison": 75.0,
+        "Nebensaison": 65.0,
+        "Feiertage": 100.0
+      },
+      "sort_order": 20,
+      "descriptions": {
+        "de": "Grundlegende Wohnung mit schöner Aussicht",
+        "en": "Basic apartment with beautiful views",
+        "es": "Apartamento básico con hermosas vistas",
+        "pt": "Apartamento básico com belas vistas",
+        "fr": "Appartement basique avec belles vues",
+        "it": "Appartamento base con belle viste",
+        "ca": "Apartament bàsic amb boniques vistes"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohn-Esszimmer mit ausgestatteter Küche</li><li>Schlafzimmer mit zwei Betten</li><li>Badezimmer mit Dusche/WC</li><li>Balkon</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Küchenausstattung (Pfannen, Töpfe, Besteck, Geschirr, Küchenutensilien)</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung im Winter</li></ul>",
+        "en": "<ul><li>Living-dining room with equipped kitchen</li><li>Bedroom with two beds</li><li>Bathroom with shower/WC</li><li>Balcony</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment (pans, pots, cutlery, dishes, kitchen utensils)</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating in winter</li></ul>",
+        "es": "<ul><li>Salón-comedor con cocina equipada</li><li>Dormitorio con dos camas</li><li>Baño con ducha/WC</li><li>Balcón</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina (sartenes, ollas, cubiertos, vajilla, utensilios)</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central en invierno</li></ul>",
+        "pt": "<ul><li>Sala de estar-jantar com cozinha equipada</li><li>Quarto com duas camas</li><li>Casa de banho com duche/WC</li><li>Varanda</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha (frigideiras, panelas, talheres, louça, utensílios)</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central no inverno</li></ul>",
+        "fr": "<ul><li>Salon-salle à manger avec cuisine équipée</li><li>Chambre avec deux lits</li><li>Salle de bain avec douche/WC</li><li>Balcon</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine (poêles, casseroles, couverts, vaisselle, ustensiles)</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central en hiver</li></ul>",
+        "it": "<ul><li>Soggiorno-sala da pranzo con cucina attrezzata</li><li>Camera da letto con due letti</li><li>Bagno con doccia/WC</li><li>Balcone</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina (padelle, pentole, posate, stoviglie, utensili)</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato in inverno</li></ul>",
+        "ca": "<ul><li>Saló-menjador amb cuina equipada</li><li>Dormitori amb dos llits</li><li>Bany amb dutxa/WC</li><li>Balcó</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina (paelles, olles, coberts, vaixella, estris)</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central a l'hivern</li></ul>"
+      }
+    },
+    {
+      "source_id": "90982df6-2bdb-4cc0-9da1-a233f80226a1",
+      "code": "BM-STUDIO-BASIC",
+      "name": "BarbaraMar Studio Basic",
+      "max_occupancy": 1,
+      "standard_price": 45.0,
+      "prices": {
+        "Hochsaison": 65.0,
+        "Mittelsaison": 55.0,
+        "Nebensaison": 45.0,
+        "Feiertage": 75.0
+      },
+      "sort_order": 30,
+      "descriptions": {
+        "de": "Die günstigste Kategorie für 1 Person",
+        "en": "The most affordable category for 1 person",
+        "es": "La categoría más económica para 1 persona",
+        "pt": "A categoria mais económica para 1 pessoa",
+        "fr": "La catégorie la plus économique pour 1 personne",
+        "it": "La categoria più economica per 1 persona",
+        "ca": "La categoria més econòmica per a 1 persona"
+      },
+      "equipment": {
+        "de": "<ul><li>Studio (Wohn-Schlafzimmer) mit integrierter Küche</li><li>Badezimmer mit Dusche/WC</li><li>Balkon</li><li>WLAN/Internet</li><li>Sat-TV</li><li>Küchenausstattung (Pfannen, Töpfe, Besteck, Geschirr, Küchenutensilien)</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung im Winter</li></ul>",
+        "en": "<ul><li>Studio (living-bedroom) with integrated kitchen</li><li>Bathroom with shower/WC</li><li>Balcony</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment (pans, pots, cutlery, dishes, kitchen utensils)</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating in winter</li></ul>",
+        "es": "<ul><li>Estudio (salón-dormitorio) con cocina integrada</li><li>Baño con ducha/WC</li><li>Balcón</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina (sartenes, ollas, cubiertos, vajilla, utensilios)</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central en invierno</li></ul>",
+        "pt": "<ul><li>Estúdio (sala-quarto) com cozinha integrada</li><li>Casa de banho com duche/WC</li><li>Varanda</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha (frigideiras, panelas, talheres, louça, utensílios)</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central no inverno</li></ul>",
+        "fr": "<ul><li>Studio (salon-chambre) avec cuisine intégrée</li><li>Salle de bain avec douche/WC</li><li>Balcon</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine (poêles, casseroles, couverts, vaisselle, ustensiles)</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central en hiver</li></ul>",
+        "it": "<ul><li>Monolocale (soggiorno-camera) con cucina integrata</li><li>Bagno con doccia/WC</li><li>Balcone</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina (padelle, pentole, posate, stoviglie, utensili)</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato in inverno</li></ul>",
+        "ca": "<ul><li>Estudi (saló-dormitori) amb cuina integrada</li><li>Bany amb dutxa/WC</li><li>Balcó</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina (paelles, olles, coberts, vaixella, estris)</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central a l'hivern</li></ul>"
+      }
+    },
+    {
+      "source_id": "cfdaedc8-73d1-4960-8d05-974db8f3b804",
+      "code": "BM-GARDEN-STANDARD",
+      "name": "BarbaraMar Garden Standard",
+      "max_occupancy": 4,
+      "standard_price": 75.0,
+      "prices": {
+        "Hochsaison": 110.0,
+        "Mittelsaison": 90.0,
+        "Nebensaison": 75.0,
+        "Feiertage": 125.0
+      },
+      "sort_order": 40,
+      "descriptions": {
+        "de": "Apartment für bis zu 4 Personen",
+        "en": "Apartment for up to 4 persons",
+        "es": "Apartamento para hasta 4 personas",
+        "pt": "Apartamento para até 4 pessoas",
+        "fr": "Appartement pour jusqu'à 4 personnes",
+        "it": "Appartamento per fino a 4 persone",
+        "ca": "Apartament per a fins a 4 persones"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohn-Esszimmer mit ausgestatteter Küche</li><li>Ein Schlafzimmer mit zwei Betten</li><li>Badezimmer mit Dusche/WC</li><li>Balkon</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Küchenausstattung</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung im Winter</li></ul>",
+        "en": "<ul><li>Living-dining room with equipped kitchen</li><li>One bedroom with two beds</li><li>Bathroom with shower/WC</li><li>Balcony</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating in winter</li></ul>",
+        "es": "<ul><li>Salón-comedor con cocina equipada</li><li>Un dormitorio con dos camas</li><li>Baño con ducha/WC</li><li>Balcón</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central en invierno</li></ul>",
+        "pt": "<ul><li>Sala de estar-jantar com cozinha equipada</li><li>Um quarto com duas camas</li><li>Casa de banho com duche/WC</li><li>Varanda</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central no inverno</li></ul>",
+        "fr": "<ul><li>Salon-salle à manger avec cuisine équipée</li><li>Une chambre avec deux lits</li><li>Salle de bain avec douche/WC</li><li>Balcon</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central en hiver</li></ul>",
+        "it": "<ul><li>Soggiorno-sala da pranzo con cucina attrezzata</li><li>Una camera da letto con due letti</li><li>Bagno con doccia/WC</li><li>Balcone</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato in inverno</li></ul>",
+        "ca": "<ul><li>Saló-menjador amb cuina equipada</li><li>Un dormitori amb dos llits</li><li>Bany amb dutxa/WC</li><li>Balcó</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central a l'hivern</li></ul>"
+      }
+    },
+    {
+      "source_id": "fb20e9ab-9924-491a-98f0-a9c3e3999d8c",
+      "code": "BM-SUITES-SUPERIOR",
+      "name": "BarbaraMar Suites Superior",
+      "max_occupancy": 2,
+      "standard_price": 80.0,
+      "prices": {
+        "Hochsaison": 120.0,
+        "Mittelsaison": 95.0,
+        "Nebensaison": 80.0,
+        "Feiertage": 135.0
+      },
+      "sort_order": 50,
+      "descriptions": {
+        "de": "Erstklassige Suite mit moderner Ausstattung",
+        "en": "First-class suite with modern amenities",
+        "es": "Suite de primera clase con equipamiento moderno",
+        "pt": "Suite de primeira classe com equipamento moderno",
+        "fr": "Suite de première classe avec équipements modernes",
+        "it": "Suite di prima classe con dotazioni moderne",
+        "ca": "Suite de primera classe amb equipament modern"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohn-Esszimmer mit ausgestatteter Küche</li><li>Eine moderne Schlafzimmersuite</li><li>Badezimmer mit Dusche/WC</li><li>Balkon</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Küchenausstattung</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung</li></ul>",
+        "en": "<ul><li>Living-dining room with equipped kitchen</li><li>A modern bedroom suite</li><li>Bathroom with shower/WC</li><li>Balcony</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating</li></ul>",
+        "es": "<ul><li>Salón-comedor con cocina equipada</li><li>Una moderna suite de dormitorio</li><li>Baño con ducha/WC</li><li>Balcón</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central</li></ul>",
+        "pt": "<ul><li>Sala de estar-jantar com cozinha equipada</li><li>Uma moderna suite de quarto</li><li>Casa de banho com duche/WC</li><li>Varanda</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central</li></ul>",
+        "fr": "<ul><li>Salon-salle à manger avec cuisine équipée</li><li>Une suite chambre moderne</li><li>Salle de bain avec douche/WC</li><li>Balcon</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central</li></ul>",
+        "it": "<ul><li>Soggiorno-sala da pranzo con cucina attrezzata</li><li>Una moderna suite camera da letto</li><li>Bagno con doccia/WC</li><li>Balcone</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato</li></ul>",
+        "ca": "<ul><li>Saló-menjador amb cuina equipada</li><li>Una moderna suite de dormitori</li><li>Bany amb dutxa/WC</li><li>Balcó</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central</li></ul>"
+      }
+    },
+    {
+      "source_id": "8680e18c-8ab5-4ab9-bdaa-43f4a49c46c8",
+      "code": "SM-RELAX-STANDARD",
+      "name": "SusanaMar Relax Standard",
+      "max_occupancy": 4,
+      "standard_price": 78.0,
+      "prices": {
+        "Hochsaison": 115.0,
+        "Mittelsaison": 92.0,
+        "Nebensaison": 78.0,
+        "Feiertage": 130.0
+      },
+      "sort_order": 60,
+      "descriptions": {
+        "de": "Wohnung empfohlen für 2 Erwachsene und 2 Kinder",
+        "en": "Apartment recommended for 2 adults and 2 children",
+        "es": "Apartamento recomendado para 2 adultos y 2 niños",
+        "pt": "Apartamento recomendado para 2 adultos e 2 crianças",
+        "fr": "Appartement recommandé pour 2 adultes et 2 enfants",
+        "it": "Appartamento consigliato per 2 adulti e 2 bambini",
+        "ca": "Apartament recomanat per a 2 adults i 2 nens"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohn-Esszimmer mit ausgestatteter Küche</li><li>Schlafzimmer mit zwei Betten</li><li>Etagenbetten für 2 Kinder</li><li>Badezimmer mit Dusche/WC</li><li>Balkon</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Küchenausstattung</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung im Winter</li></ul>",
+        "en": "<ul><li>Living-dining room with equipped kitchen</li><li>Bedroom with two beds</li><li>Bunk beds for 2 children</li><li>Bathroom with shower/WC</li><li>Balcony</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating in winter</li></ul>",
+        "es": "<ul><li>Salón-comedor con cocina equipada</li><li>Dormitorio con dos camas</li><li>Literas para 2 niños</li><li>Baño con ducha/WC</li><li>Balcón</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central en invierno</li></ul>",
+        "pt": "<ul><li>Sala de estar-jantar com cozinha equipada</li><li>Quarto com duas camas</li><li>Beliches para 2 crianças</li><li>Casa de banho com duche/WC</li><li>Varanda</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central no inverno</li></ul>",
+        "fr": "<ul><li>Salon-salle à manger avec cuisine équipée</li><li>Chambre avec deux lits</li><li>Lits superposés pour 2 enfants</li><li>Salle de bain avec douche/WC</li><li>Balcon</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central en hiver</li></ul>",
+        "it": "<ul><li>Soggiorno-sala da pranzo con cucina attrezzata</li><li>Camera da letto con due letti</li><li>Letti a castello per 2 bambini</li><li>Bagno con doccia/WC</li><li>Balcone</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato in inverno</li></ul>",
+        "ca": "<ul><li>Saló-menjador amb cuina equipada</li><li>Dormitori amb dos llits</li><li>Lliteres per a 2 nens</li><li>Bany amb dutxa/WC</li><li>Balcó</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central a l'hivern</li></ul>"
+      }
+    },
+    {
+      "source_id": "4f4eeb07-dac3-44d8-9adb-70c872516bfc",
+      "code": "TM-BLUE-ROOMS",
+      "name": "TinaMar Blue Rooms Standard",
+      "max_occupancy": 4,
+      "standard_price": 95.0,
+      "prices": {
+        "Hochsaison": 140.0,
+        "Mittelsaison": 110.0,
+        "Nebensaison": 95.0,
+        "Feiertage": 155.0
+      },
+      "sort_order": 70,
+      "descriptions": {
+        "de": "Hochwertige Wohnung mit modernem Komfort",
+        "en": "High-quality apartment with modern comfort",
+        "es": "Apartamento de alta calidad con confort moderno",
+        "pt": "Apartamento de alta qualidade com conforto moderno",
+        "fr": "Appartement de haute qualité avec confort moderne",
+        "it": "Appartamento di alta qualità con comfort moderno",
+        "ca": "Apartament d'alta qualitat amb confort modern"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohnzimmer mit ausgestatteter Küche</li><li>Schlafzimmer mit zwei Betten</li><li>1 Schlafnische mit Etagenbetten für Kinder</li><li>Badezimmer mit Dusche/WC mit Föhn und Kosmetikspiegel</li><li>Balkon</li><li>Akustische Isolierung</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Safe</li><li>Küchenausstattung</li><li>Willkommenspaket für die Küche (Spülmittel, Spültuch, Schwamm)</li><li>Nespresso-Kaffeemaschine</li><li>1 Begrüßungsgetränk pro Person und 1 Flasche Trinkwasser</li><li>Wäschepaket (Handtücher, Bettwäsche) / 2 wöchentlicher Wechsel im Preis inbegriffen</li><li>Fußbodenheizung im Winter</li></ul>",
+        "en": "<ul><li>Living room with equipped kitchen</li><li>Bedroom with two beds</li><li>1 sleeping niche with bunk beds for children</li><li>Bathroom with shower/WC with hairdryer and vanity mirror</li><li>Balcony</li><li>Acoustic insulation</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Safe</li><li>Kitchen equipment</li><li>Welcome kitchen pack (dish soap, dishcloth, sponge)</li><li>Nespresso coffee machine</li><li>1 welcome drink per person and 1 bottle of drinking water</li><li>Linen package (towels, bed linen) / bi-weekly change included in price</li><li>Underfloor heating in winter</li></ul>",
+        "es": "<ul><li>Salón con cocina equipada</li><li>Dormitorio con dos camas</li><li>1 alcoba con literas para niños</li><li>Baño con ducha/WC con secador de pelo y espejo de cortesía</li><li>Balcón</li><li>Aislamiento acústico</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Caja fuerte</li><li>Equipamiento de cocina</li><li>Pack de bienvenida para la cocina (jabón, paño, esponja)</li><li>Máquina de café Nespresso</li><li>1 bebida de bienvenida por persona y 1 botella de agua potable</li><li>Paquete de ropa (toallas, ropa de cama) / cambio quincenal incluido en el precio</li><li>Suelo radiante en invierno</li></ul>",
+        "pt": "<ul><li>Sala de estar com cozinha equipada</li><li>Quarto com duas camas</li><li>1 nicho com beliches para crianças</li><li>Casa de banho com duche/WC com secador e espelho de cortesia</li><li>Varanda</li><li>Isolamento acústico</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Cofre</li><li>Equipamento de cozinha</li><li>Pacote de boas-vindas para a cozinha (detergente, pano, esponja)</li><li>Máquina de café Nespresso</li><li>1 bebida de boas-vindas por pessoa e 1 garrafa de água potável</li><li>Pacote de roupa (toalhas, roupa de cama) / troca quinzenal incluída no preço</li><li>Piso radiante no inverno</li></ul>",
+        "fr": "<ul><li>Salon avec cuisine équipée</li><li>Chambre avec deux lits</li><li>1 alcôve avec lits superposés pour enfants</li><li>Salle de bain avec douche/WC avec sèche-cheveux et miroir de courtoisie</li><li>Balcon</li><li>Isolation acoustique</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Coffre-fort</li><li>Équipement de cuisine</li><li>Pack d'accueil cuisine (liquide vaisselle, torchon, éponge)</li><li>Machine à café Nespresso</li><li>1 boisson de bienvenue par personne et 1 bouteille d'eau potable</li><li>Pack linge (serviettes, draps) / changement bimensuel inclus dans le prix</li><li>Chauffage au sol en hiver</li></ul>",
+        "it": "<ul><li>Soggiorno con cucina attrezzata</li><li>Camera da letto con due letti</li><li>1 nicchia con letti a castello per bambini</li><li>Bagno con doccia/WC con asciugacapelli e specchio di cortesia</li><li>Balcone</li><li>Isolamento acustico</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Cassaforte</li><li>Attrezzatura cucina</li><li>Pacchetto benvenuto cucina (detersivo, strofinaccio, spugna)</li><li>Macchina caffè Nespresso</li><li>1 bevanda di benvenuto per persona e 1 bottiglia di acqua potabile</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio bisettimanale incluso nel prezzo</li><li>Riscaldamento a pavimento in inverno</li></ul>",
+        "ca": "<ul><li>Saló amb cuina equipada</li><li>Dormitori amb dos llits</li><li>1 racó amb lliteres per a nens</li><li>Bany amb dutxa/WC amb assecador i mirall de cortesia</li><li>Balcó</li><li>Aïllament acústic</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Caixa forta</li><li>Equipament de cuina</li><li>Paquet de benvinguda cuina (rentaplats, drap, esponja)</li><li>Màquina de cafè Nespresso</li><li>1 beguda de benvinguda per persona i 1 ampolla d'aigua potable</li><li>Paquet de roba (tovalloles, roba de llit) / canvi quinzenal inclòs en el preu</li><li>Calefacció per terra radiant a l'hivern</li></ul>"
+      }
+    },
+    {
+      "source_id": "2bb53fb5-d0fb-4ca9-a805-6e8f6da9a9d4",
+      "code": "CM-FAMILY-FRIENDS",
+      "name": "CarolinaMar Familie und Freunde Standard",
+      "max_occupancy": 4,
+      "standard_price": 88.0,
+      "prices": {
+        "Hochsaison": 130.0,
+        "Mittelsaison": 105.0,
+        "Nebensaison": 88.0,
+        "Feiertage": 145.0
+      },
+      "sort_order": 80,
+      "descriptions": {
+        "de": "Familienfreundliche Wohnung für Gruppen",
+        "en": "Family-friendly apartment for groups",
+        "es": "Apartamento familiar para grupos",
+        "pt": "Apartamento familiar para grupos",
+        "fr": "Appartement familial pour groupes",
+        "it": "Appartamento familiare per gruppi",
+        "ca": "Apartament familiar per a grups"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohn-Esszimmer mit ausgestatteter Küche</li><li>Schlafzimmer mit zwei Betten</li><li>Badezimmer mit Dusche/WC</li><li>Balkon</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Küchenausstattung (Pfannen, Töpfe, Besteck, Geschirr, Küchenutensilien)</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung im Winter</li></ul>",
+        "en": "<ul><li>Living-dining room with equipped kitchen</li><li>Bedroom with two beds</li><li>Bathroom with shower/WC</li><li>Balcony</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment (pans, pots, cutlery, dishes, kitchen utensils)</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating in winter</li></ul>",
+        "es": "<ul><li>Salón-comedor con cocina equipada</li><li>Dormitorio con dos camas</li><li>Baño con ducha/WC</li><li>Balcón</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina (sartenes, ollas, cubiertos, vajilla, utensilios)</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central en invierno</li></ul>",
+        "pt": "<ul><li>Sala de estar-jantar com cozinha equipada</li><li>Quarto com duas camas</li><li>Casa de banho com duche/WC</li><li>Varanda</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha (frigideiras, panelas, talheres, louça, utensílios)</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central no inverno</li></ul>",
+        "fr": "<ul><li>Salon-salle à manger avec cuisine équipée</li><li>Chambre avec deux lits</li><li>Salle de bain avec douche/WC</li><li>Balcon</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine (poêles, casseroles, couverts, vaisselle, ustensiles)</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central en hiver</li></ul>",
+        "it": "<ul><li>Soggiorno-sala da pranzo con cucina attrezzata</li><li>Camera da letto con due letti</li><li>Bagno con doccia/WC</li><li>Balcone</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina (padelle, pentole, posate, stoviglie, utensili)</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato in inverno</li></ul>",
+        "ca": "<ul><li>Saló-menjador amb cuina equipada</li><li>Dormitori amb dos llits</li><li>Bany amb dutxa/WC</li><li>Balcó</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina (paelles, olles, coberts, vaixella, estris)</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central a l'hivern</li></ul>"
+      }
+    },
+    {
+      "source_id": "f4696398-ae4c-476b-895c-f5014db7e448",
+      "code": "PM-FAMILY-FRIENDS",
+      "name": "PiaMar Family and Friends Standard",
+      "max_occupancy": 5,
+      "standard_price": 100.0,
+      "prices": {
+        "Hochsaison": 150.0,
+        "Mittelsaison": 120.0,
+        "Nebensaison": 100.0,
+        "Feiertage": 165.0
+      },
+      "sort_order": 90,
+      "descriptions": {
+        "de": "Wohnung für bis zu 5 Personen",
+        "en": "Apartment for up to 5 persons",
+        "es": "Apartamento para hasta 5 personas",
+        "pt": "Apartamento para até 5 pessoas",
+        "fr": "Appartement pour jusqu'à 5 personnes",
+        "it": "Appartamento per fino a 5 persone",
+        "ca": "Apartament per a fins a 5 persones"
+      },
+      "equipment": {
+        "de": "<ul><li>Wohn-Esszimmer mit ausgestatteter Küche</li><li>Ein Schlafzimmer mit zwei Betten</li><li>Ein Schlafzimmer mit drei Betten</li><li>Badezimmer mit Dusche/WC</li><li>Balkon oder Terrasse</li><li>WLAN/Internet</li><li>TV-SAT</li><li>Küchenausstattung</li><li>Wäschepaket (Handtücher, Bettwäsche) / wöchentlicher Wechsel ab 7 Tage im Preis inbegriffen</li><li>Zentralheizung</li></ul>",
+        "en": "<ul><li>Living-dining room with equipped kitchen</li><li>One bedroom with two beds</li><li>One bedroom with three beds</li><li>Bathroom with shower/WC</li><li>Balcony or terrace</li><li>Wi-Fi/Internet</li><li>Satellite TV</li><li>Kitchen equipment</li><li>Linen package (towels, bed linen) / weekly change from 7 days included in price</li><li>Central heating</li></ul>",
+        "es": "<ul><li>Salón-comedor con cocina equipada</li><li>Un dormitorio con dos camas</li><li>Un dormitorio con tres camas</li><li>Baño con ducha/WC</li><li>Balcón o terraza</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamiento de cocina</li><li>Paquete de ropa (toallas, ropa de cama) / cambio semanal a partir de 7 días incluido en el precio</li><li>Calefacción central</li></ul>",
+        "pt": "<ul><li>Sala de estar-jantar com cozinha equipada</li><li>Um quarto com duas camas</li><li>Um quarto com três camas</li><li>Casa de banho com duche/WC</li><li>Varanda ou terraço</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipamento de cozinha</li><li>Pacote de roupa (toalhas, roupa de cama) / troca semanal a partir de 7 dias incluído no preço</li><li>Aquecimento central</li></ul>",
+        "fr": "<ul><li>Salon-salle à manger avec cuisine équipée</li><li>Une chambre avec deux lits</li><li>Une chambre avec trois lits</li><li>Salle de bain avec douche/WC</li><li>Balcon ou terrasse</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Équipement de cuisine</li><li>Pack linge (serviettes, draps) / changement hebdomadaire à partir de 7 jours inclus dans le prix</li><li>Chauffage central</li></ul>",
+        "it": "<ul><li>Soggiorno-sala da pranzo con cucina attrezzata</li><li>Una camera da letto con due letti</li><li>Una camera da letto con tre letti</li><li>Bagno con doccia/WC</li><li>Balcone o terrazza</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Attrezzatura cucina</li><li>Pacchetto biancheria (asciugamani, lenzuola) / cambio settimanale da 7 giorni incluso nel prezzo</li><li>Riscaldamento centralizzato</li></ul>",
+        "ca": "<ul><li>Saló-menjador amb cuina equipada</li><li>Un dormitori amb dos llits</li><li>Un dormitori amb tres llits</li><li>Bany amb dutxa/WC</li><li>Balcó o terrassa</li><li>Wi-Fi/Internet</li><li>TV-SAT</li><li>Equipament de cuina</li><li>Paquet de roba (tovalloles, roba de llit) / canvi setmanal a partir de 7 dies inclòs en el preu</li><li>Calefacció central</li></ul>"
+      }
+    }
+  ],
+  "seasons": [
+    {
+      "name": "Nebensaison",
+      "color": "#3b82f6",
+      "priority": 1100,
+      "default_min_stay": 1,
+      "periods": [
+        [
+          "2026-01-01",
+          "2026-03-31"
+        ],
+        [
+          "2026-11-01",
+          "2026-12-20"
+        ]
+      ]
+    },
+    {
+      "name": "Mittelsaison",
+      "color": "#eab308",
+      "priority": 1200,
+      "default_min_stay": 1,
+      "periods": [
+        [
+          "2026-04-01",
+          "2026-06-14"
+        ],
+        [
+          "2026-09-16",
+          "2026-10-31"
+        ]
+      ]
+    },
+    {
+      "name": "Hochsaison",
+      "color": "#ef4444",
+      "priority": 1300,
+      "default_min_stay": 1,
+      "periods": [
+        [
+          "2026-06-15",
+          "2026-09-15"
+        ]
+      ]
+    },
+    {
+      "name": "Feiertage",
+      "color": "#a855f7",
+      "priority": 1400,
+      "default_min_stay": 1,
+      "periods": [
+        [
+          "2026-12-21",
+          "2026-12-31"
+        ]
+      ]
+    }
+  ],
+  "services": [
+    {
+      "code": "PARKING",
+      "name": "Parkplatz",
+      "description": "Eigener Parkplatz",
+      "unit_mode": "per_night",
+      "default_price": 10.0,
+      "vat_rate": 10,
+      "sort_order": 10,
+      "translations": {
+        "de": [
+          "Parkplatz",
+          "Eigener Parkplatz"
+        ],
+        "en": [
+          "Parking",
+          "Private parking space"
+        ],
+        "es": [
+          "Aparcamiento",
+          "Plaza de aparcamiento privada"
+        ],
+        "pt": [
+          "Estacionamento",
+          "Lugar de estacionamento privado"
+        ],
+        "fr": [
+          "Parking",
+          "Place de parking privée"
+        ],
+        "it": [
+          "Parcheggio",
+          "Posto auto privato"
+        ],
+        "ca": [
+          "Aparcament",
+          "Plaça d’aparcament privada"
+        ]
+      }
+    },
+    {
+      "code": "PET",
+      "name": "Haustier",
+      "description": "Gebühr für ein Haustier",
+      "unit_mode": "per_night",
+      "default_price": 5.0,
+      "vat_rate": 10,
+      "sort_order": 20,
+      "translations": {
+        "de": [
+          "Haustier",
+          "Gebühr für ein Haustier"
+        ],
+        "en": [
+          "Pet",
+          "Fee for one pet"
+        ],
+        "es": [
+          "Mascota",
+          "Tarifa por una mascota"
+        ],
+        "pt": [
+          "Animal de estimação",
+          "Taxa por um animal de estimação"
+        ],
+        "fr": [
+          "Animal domestique",
+          "Frais pour un animal domestique"
+        ],
+        "it": [
+          "Animale domestico",
+          "Supplemento per un animale domestico"
+        ],
+        "ca": [
+          "Mascota",
+          "Tarifa per una mascota"
+        ]
+      }
+    },
+    {
+      "code": "FINAL-CLEANING",
+      "name": "Endreinigung",
+      "description": "Einmalige Endreinigung",
+      "unit_mode": "once",
+      "default_price": 50.0,
+      "vat_rate": 10,
+      "sort_order": 30,
+      "translations": {
+        "de": [
+          "Endreinigung",
+          "Einmalige Endreinigung"
+        ],
+        "en": [
+          "Final cleaning",
+          "One-time final cleaning"
+        ],
+        "es": [
+          "Limpieza final",
+          "Limpieza final de pago único"
+        ],
+        "pt": [
+          "Limpeza final",
+          "Limpeza final única"
+        ],
+        "fr": [
+          "Nettoyage final",
+          "Nettoyage final facturé une fois"
+        ],
+        "it": [
+          "Pulizia finale",
+          "Pulizia finale una tantum"
+        ],
+        "ca": [
+          "Neteja final",
+          "Neteja final de pagament únic"
+        ]
+      }
+    },
+    {
+      "code": "BREAKFAST-ADULT",
+      "name": "Frühstück Erwachsene",
+      "description": "Frühstück für Erwachsene",
+      "unit_mode": "quantity",
+      "default_price": 12.0,
+      "vat_rate": 10,
+      "sort_order": 40,
+      "translations": {
+        "de": [
+          "Frühstück Erwachsene",
+          "Frühstück für Erwachsene"
+        ],
+        "en": [
+          "Adult breakfast",
+          "Breakfast for adults"
+        ],
+        "es": [
+          "Desayuno adultos",
+          "Desayuno para adultos"
+        ],
+        "pt": [
+          "Pequeno-almoço adultos",
+          "Pequeno-almoço para adultos"
+        ],
+        "fr": [
+          "Petit-déjeuner adultes",
+          "Petit-déjeuner pour adultes"
+        ],
+        "it": [
+          "Colazione adulti",
+          "Colazione per adulti"
+        ],
+        "ca": [
+          "Esmorzar adults",
+          "Esmorzar per a adults"
+        ]
+      }
+    },
+    {
+      "code": "BREAKFAST-CHILD",
+      "name": "Frühstück Kinder",
+      "description": "Frühstück für Kinder",
+      "unit_mode": "quantity",
+      "default_price": 6.0,
+      "vat_rate": 10,
+      "sort_order": 50,
+      "translations": {
+        "de": [
+          "Frühstück Kinder",
+          "Frühstück für Kinder"
+        ],
+        "en": [
+          "Child breakfast",
+          "Breakfast for children"
+        ],
+        "es": [
+          "Desayuno niños",
+          "Desayuno para niños"
+        ],
+        "pt": [
+          "Pequeno-almoço crianças",
+          "Pequeno-almoço para crianças"
+        ],
+        "fr": [
+          "Petit-déjeuner enfants",
+          "Petit-déjeuner pour enfants"
+        ],
+        "it": [
+          "Colazione bambini",
+          "Colazione per bambini"
+        ],
+        "ca": [
+          "Esmorzar infants",
+          "Esmorzar per a infants"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Configuration & Secrets
+config/local.php
+config/database.php
+.env
+.env.local
+
+# Storage & Uploads
+storage/
+uploads/
+backups/
+
+# Logs & Temporary
+*.log
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (if using frontend bundler)
+node_modules/
+dist/
+.parcel-cache
+
+# OS
+.DS_Store
+.gitkeep

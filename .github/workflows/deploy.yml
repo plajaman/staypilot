@@ -21,7 +21,7 @@ jobs:
 
       - name: Deploy StayPilot application
         env:
-          STRATO_PASSWORD: ${{ secrets.STRATO_PASSWORD }}
+          STRATO_PASSWORD: ${{ secrets.STRATO_SFTP_PASSWORD }}
         run: |
           python3 - <<'PY'
           import base64, io, os, pathlib, posixpath, stat, time

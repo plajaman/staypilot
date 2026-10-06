@@ -4,19 +4,79 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Deploy via SFTP
-        uses: wangyucode/sftp-upload-action@v2.0.2
+      - uses: actions/checkout@v4
         with:
-          host: ${{ secrets.STRATO_HOST }}
-          port: ${{ secrets.STRATO_PORT }}
-          username: ${{ secrets.STRATO_USER }}
-          password: ${{ secrets.STRATO_PASSWORD }}
-          localDir: '.'
-          remoteDir: '/home/su1188636/staypilot/'
-          dryRun: false
+          persist-credentials: false
+
+      - name: Install SFTP client
+        run: python3 -m pip install 'paramiko==4.0.0'
+
+      - name: Deploy StayPilot application
+        env:
+          STRATO_PASSWORD: ${{ secrets.STRATO_PASSWORD }}
+        run: |
+          python3 - <<'PY'
+          import base64, io, os, pathlib, posixpath, stat, time
+          import paramiko
+
+          HOST = '5021473268.ssh.w2.strato.hosting'
+          USER = 'su1188636'
+          ROOT = '/home/su1188636/staypilot'
+          HOST_KEY = 'AAAAC3NzaC1lZDI1NTE5AAAAINbBMvvDjN4IP04VAZlDH42A+HL25ifeIK9CorAvaMA/'
+
+          password = os.environ.get('STRATO_PASSWORD')
+          if not password:
+              raise SystemExit('Set STRATO_PASSWORD repository secret')
+
+          files = {}
+          for root_dir, extensions in [('.', {'.php', '.js', '.css', '.html', '.json', '.svg', '.ico', '.woff', '.woff2', '.png', '.jpg', '.jpeg', '.webp'})]:
+              for path in pathlib.Path('.').rglob('*'):
+                  if path.is_file() and path.suffix.lower() in extensions:
+                      if not any(p.startswith('.') for p in path.parts) and '.git' not in path.parts:
+                          files[path.as_posix()] = path.read_bytes()
+
+          client = paramiko.SSHClient()
+          client.get_host_keys().add(HOST, 'ssh-ed25519', paramiko.Ed25519Key(data=base64.b64decode(HOST_KEY)))
+          client.set_missing_host_key_policy(paramiko.RejectPolicy())
+          client.connect(HOST, port=22, username=USER, password=password, look_for_keys=False, allow_agent=False, timeout=30)
+          sftp = client.open_sftp()
+          sftp.get_channel().settimeout(30)
+
+          def remote(rel):
+              return posixpath.join(ROOT, rel)
+
+          def exists(path):
+              try:
+                  return sftp.lstat(path)
+              except FileNotFoundError:
+                  return None
+
+          def directory(path, mode=0o755):
+              info = exists(path)
+              if info is not None:
+                  if not stat.S_ISDIR(info.st_mode):
+                      raise RuntimeError('Not a directory: ' + path)
+                  return
+              directory(posixpath.dirname(path), mode)
+              sftp.mkdir(path, mode)
+              sftp.chmod(path, mode)
+
+          for rel, data in files.items():
+              dest = remote(rel)
+              directory(posixpath.dirname(dest))
+              with sftp.open(dest, 'wb') as f:
+                  f.write(data)
+              sftp.chmod(dest, 0o644)
+
+          sftp.close()
+          client.close()
+          print('StayPilot deployed successfully')
+          PY

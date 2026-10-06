@@ -17,6 +17,6 @@ jobs:
           port: ${{ secrets.STRATO_PORT }}
           username: ${{ secrets.STRATO_USER }}
           password: ${{ secrets.STRATO_PASSWORD }}
-          localDir: './staypilot'
-          remoteDir: '/home/su1188636/'
+          localDir: '.'
+          remoteDir: '/home/su1188636/staypilot/'
           dryRun: false
